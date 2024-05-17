@@ -1,5 +1,6 @@
 package com.example.image_capture
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var cameraOpenId: Button
     lateinit var clickImageId: ImageView
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
