@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">speech_to_text</string>
+    <string name="tap_mic_and_speak" />
+</resources>
